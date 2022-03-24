@@ -24,5 +24,14 @@ module.exports = function() {
         });
         res.send(204).end();
     };
+    //controller.adicionarContato = function(req, res) {
+    //    var { nome, email } = req.params;
+    //    contatos.push({
+    //        _id: contatos[contatos.length - 1]._id + 1,
+    //        nome,
+    //        email
+    //    })
+    //    res.send(204).end();
+    //};
     return controller;
 };
